@@ -7,4 +7,18 @@
 // on a new game random the buttons
 
 //setting global variables
+var win = 0;
+var loss = 0;
 
+// random number generator for the computer guess
+
+var minCompNum = 19;
+var maxCompNum = 120;
+
+var randomNumber = randomNumberFromRange(minCompNum, maxCompNum);
+
+function randomNumberFromRange(min,max)
+{ return Math.floor(Math.random()*(max-min+1)+min);
+}
+    winRndNum.text(randomNumber);
+console.log(randomNumber);
