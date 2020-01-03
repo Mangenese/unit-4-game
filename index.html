@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    <title>Rupee Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 </head>
 
@@ -26,7 +26,7 @@
     <p> Each time the game starts the crystals vaules will change!</p>
 
 
-    <div><span id="winRndNum"></span></div>
+    <div><span id="rndNum"></span></div>
     <div id="counter">
         <div>Wins:<span id="win"></span></div>
         <div>Losses: <span id="losses"></span></div>
@@ -34,16 +34,16 @@
 
 
     <div class="crystals">
-        <img src="assets/images/Blue-Rupee.png" alt="Blue-Rupee" height= "105px" width= "120px">
-        <img src="assets/images/Green-Rupee.png" alt="Green-Rupee" height= "105px" width= "120px">
-        <img src="assets/images/Red-Rupee.png" alt="Red-Rupee" height="105px" width= "120px">
-        <img src="assets/images/Yellow-Rupee.png" alt="Yellow-Rupee" height="105px" width= "120px">
+        <img class="blue" src="assets/images/Blue-Rupee.png" alt="Blue-Rupee" height="105px" width="120px">
+        <img class="green" src="assets/images/Green-Rupee.png" alt="Green-Rupee" height="105px" width="120px">
+        <img class="red" src="assets/images/Red-Rupee.png" alt="Red-Rupee" height="105px" width="120px">
+        <img class="yellow" src="assets/images/Yellow-Rupee.png" alt="Yellow-Rupee" height="105px" width="120px">
     </div>
-    
-    
+
+
     <div> Your total score is:</div>
 
-    <div id="calcScore"></div>
+    <div><span id="total"></span> </div>
 
 
 
