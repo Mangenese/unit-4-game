@@ -6,6 +6,9 @@
 // game needs to restart once a player wins or loses
 // on a new game random the buttons
 
+
+
+
 //setting global variables
 var wins = 0;
 var losses = 0;
@@ -103,3 +106,4 @@ $(".yellow").on("click", function() {
         $("#total").text(total); 
     }
 });
+
