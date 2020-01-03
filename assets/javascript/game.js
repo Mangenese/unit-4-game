@@ -22,7 +22,7 @@ function randomNumGen() {
 
     $("#total").text(total);
     //The random number gets generated for the user to match
-    randomNum = Math.floor(Math.random() * 120) + 19;
+    randomNum = Math.floor(Math.random() * 102) + 19;
 
     //generate a random number for the rupees
     blueNum = Math.floor(Math.random() * 12) + 1;

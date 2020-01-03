@@ -13,42 +13,55 @@
 </head>
 
 <body>
-    <h1>Rupee Collector!</h1>
+    <div class="container">
+        <h1 id="logo">Rupee Collector!</h1> <br>
+        <div class="content">
+            <p> At the start of the game you will be given a random number.</p>
 
-    <p> At the start of the game you will be given a random number.</p>
+            <p> You have 4 crystals to choose from. By clicking on one of those buttons you will add a specific amount
+                of points
+                to your total score.</p>
 
-    <p> You have 4 crystals to choose from. By clicking on one of those buttons you will add a specific amount of points
-        to your total score.</p>
+            <p> You win if you can match your total score to the random number that was generated. You lose if you can't
+                match
+                your total to the random total.</p>
 
-    <p> You win if you can match your total score to the random number that was generated. You lose if you can't match
-        your total to the random total.</p>
+            <p> The value of each total is kept hidden until you click on it.</p>
 
-    <p> The value of each total is kept hidden until you click on it.</p>
+            <p> Each time the game starts the crystals vaules will change!</p>
 
-    <p> Each time the game starts the crystals vaules will change!</p>
+            <br>
+
+            <div class="small">
+                <div><span id="rndNum"></span></div>
+            </div>
+            <div id="counter">
+
+                <div> Wins:<span id="win"></span></div>
+                <div> Losses: <span id="losses"></span></div>
+            </div>
 
 
-    <div><span id="rndNum"></span></div>
-    <div id="counter">
-        <div>Wins:<span id="win"></span></div>
-        <div>Losses: <span id="losses"></span></div>
+
+
+            <br>
+            <div class="crystals">
+                <img class="blue" src="assets/images/Blue-Rupee.png" alt="Blue-Rupee" height="105px" width="120px">
+                <img class="green" src="assets/images/Green-Rupee.png" alt="Green-Rupee" height="105px" width="120px">
+                <img class="red" src="assets/images/Red-Rupee.png" alt="Red-Rupee" height="105px" width="120px">
+                <img class="yellow" src="assets/images/Yellow-Rupee.png" alt="Yellow-Rupee" height="105px"
+                    width="120px">
+            </div>
+
+            <br>
+            <div class="med">
+                <h3> Your total score is:</h3>
+
+                <div><span id="total"></span> </div>
+            </div>
+
+        </div>
     </div>
-
-
-    <div class="crystals">
-        <img class="blue" src="assets/images/Blue-Rupee.png" alt="Blue-Rupee" height="105px" width="120px">
-        <img class="green" src="assets/images/Green-Rupee.png" alt="Green-Rupee" height="105px" width="120px">
-        <img class="red" src="assets/images/Red-Rupee.png" alt="Red-Rupee" height="105px" width="120px">
-        <img class="yellow" src="assets/images/Yellow-Rupee.png" alt="Yellow-Rupee" height="105px" width="120px">
-    </div>
-
-
-    <div> Your total score is:</div>
-
-    <div><span id="total"></span> </div>
-
-
-
     <script src="assets/javascript/game.js"></script>
 </body>
 

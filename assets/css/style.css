@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 48px;
+    margin-top: 10px;
+}
+
+body {
+    background: url(../images/mastersword2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.small {
+    height: 75px;
+    width: 90px;
+    padding: 90 120;
+    background-color: cyan;
+    float: left;
+    font-size: 55px;
+    border: 2px black solid;
+
+}
+.container {
+    font-size: 24px;
+    line-height: normal;
+    
+}
+
+#logo {
+background-color: #d7ecdc;
+height: 75px;
+width: 350px;
+border: 2px black solid;
+}
+
+.content {
+    height: 330px;
+    width:  550px;
+    background-color: #eec762;
+    border: 2px black solid;
+}
+
+
+
+#counter {
+    height: 75px;
+    width: 225px;
+    background-color: papayawhip;
+    margin-left: 10px;
+    border: 2px black solid;
+
+}
+.med {
+    width: 200px;
+    height: 100px;
+    background-color: #fc7e7e;
+    border: 2px black solid;
+}
